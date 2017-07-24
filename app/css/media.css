@@ -1,0 +1,63 @@
+/*Large Devices, Wide Screens*/
+/*Medium Devices, Desctops*/
+@media only screen and (max-width: 992px) {
+  .header-base .my-navbar {
+    margin: 30px 0; }
+  .header-base .my-navbar a {
+    font-size: 16px;
+    padding: 10px 15px; }
+  .header-base .my-navbar .btn-link {
+    padding: 10px 25px;
+    margin-left: 15px; }
+  .wrap-template .head {
+    font-size: 18px; }
+  .wrap-template .descr {
+    font-family: 'Roboto', sans-serif;
+    color: #8492af;
+    font-size: 16px;
+    width: 70%; } }
+
+/*Extra Small Devices,Phones*/
+@media only screen and (max-width: 768px) {
+  .button-mobile {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 32px; }
+  .my-navbar li {
+    text-align: center; }
+  .features-base {
+    padding-bottom: 0px; }
+  .features-item {
+    margin-bottom: 70px; }
+  .needed-base {
+    padding-top: 0; }
+  .drag-complete {
+    margin: 50px 0; }
+  .wrap-template .text-up {
+    position: relative;
+    width: 100%; }
+  .wrap-template .text-down {
+    position: relative;
+    width: 100%; }
+  .price-base {
+    padding-top: 0; }
+  .footer-base .footer-nav {
+    padding: 0;
+    margin-bottom: 30px; }
+  .footer-nav .nav-link a {
+    margin-right: 25px; } }
+
+/*Extra Small Devices,Phones*/
+@media only screen and (max-width: 480px) {
+  .header-base .navbar-brand {
+    width: 180px; }
+  .button-mobile {
+    margin-top: 10px; }
+  .price-item {
+    flex-basis: 250px; }
+  .footer-nav li {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px; } }
+
+/*Custom, Iphone Retina*/
